@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Day-2 IQ/A</title>
+    <link rel="stylesheet" href="./styles.css">
+</head>
+<style>
+    body{
+        background-color: lightcyan;
+    }
+    #container{
+        height:1550px;
+        width: 1000px;
+        border: 3px dotted orangered;
+        font-size: 19px;
+        background-color: rgb(173, 206, 108);
+        margin-left: 200px;
+        padding:15px;
+    }
+</style>
+<body>
+    <div id="container">
+        <h3 style="text-align:center; color:brown; text-decoration: underline;">CSS INTERVIEW Q/A DAY-2</h3>
+        <b>1.Box-sizing:</b>
+        <p>In CSS, Box sizing property allows us to include the padding and border in an elements total width and height.Box-sizing has two different values namely content-box and border-box.By default box-sizing has set to content-box.In content-box the dimensions of the element will be actual height and width and it does not includes border and padding given to element.Border and padding takes space outside the element.If box-sizing is set to border box it includes height,width,border,padding values.but border and padding values are taken inside the element. </p>
+        <hr>
+        <b>2.Animation Delay:</b>
+        <p>In CSS,animation delay property specifies the amount of time to wait from applying the animation to an element before starting the animation. Animation delay is specified in seconds and milli seconds. </p>
+        <div id="box"></div>
+        <hr>
+        <b>3.To Merge cells Vertically in grid:</b>
+        <p>By using grid-row property we can merge cells vertically (Columns) in grid.There are two short hands for grid row .They are: 1.grid-row-start <br>2.grid-row-end</p>
+        <hr>
+        <b>4.To Merge cells horizantally in grid:</b>
+        <p>By using grid- column property we can merge cells horizantally(rows) in grid.There are two short hands for grid column .They are: 1.grid-column-start <br>2.grid-column-end</p>
+        <div id="grid-container">
+            <div class="grid-item-1 grid-item"></div>
+            <div class="grid-item-2 grid-item"></div>
+            <div class="grid-item-3 grid-item"></div>
+            <div class="grid-item-4 grid-item"></div>
+            <div class="grid-item-5 grid-item"></div>
+            <div class="grid-item-6 grid-item"></div>
+        </div>
+        <hr>
+        <b>5.Box Model:</b>
+        <p>CSS Box model is essentially a box around every HTML element.Box model consists of margin,border,padding,and content.<br><br>1.<b>Margin:</b> Margin is transperant and it is always outside the border.<br><b>2.Border:</b> Border is around the padding and content.<br><b>3.Padding:</b> Padding is transperant and it is present in between the border and content.<br><b>4.Content:</b> The Content is the box where our content appears.</p>
+        <hr>
+        <b>6.Difference between display:none; and Visibility:hidden;</b>
+        <p>display:none; -- It removes the element from the document and it does not take any space.<br>visibility:hidden; --It hides the element, but it takes space on the layout.</p>
+    </div>
+</body>
+</html>
